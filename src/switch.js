@@ -3,11 +3,8 @@
  * Copyright (c) 2021 The Baal Krshna Team
  */
 
-function switchTheme(theme, ...rmThemes) {
-    document.body.classList.add(theme);
-    for (var i = 0; i < rmThemes.length; i++) {
-        document.body.classList.remove(rmThemes[i]);
-    }
+function switchTheme(theme) {
+    document.documentElement.dataset.theme = theme;
     setCookie("theme", theme, 10);
     console.log("Switched theme to: " + theme);
 }
