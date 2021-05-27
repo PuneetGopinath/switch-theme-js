@@ -7,6 +7,7 @@ Welcome to the documentation for Switch Theme JS.
 1. [Getting Started](getting-started.md)
 2. [Functions](functions.md)
 3. [Files](files.md)
+4. [Installing guidelines](INSTALL.md)
 
 ## Community
 
