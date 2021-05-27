@@ -32,3 +32,7 @@ Installing from composer:
 Installing from github:
 > [Download source code from releases page](https://github.com/PuneetGopinath/switch-theme-js/releases/)
 > Extract files to your project's folder
+
+---------------------------------------------------------------------
+
+[Back to home](README.md)
