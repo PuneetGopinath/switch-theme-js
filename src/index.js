@@ -31,13 +31,13 @@ function getCookie(name) {
     return "";
 }
 return {
-function switch(theme) {
+switch: function (theme) {
     document.documentElement.dataset.theme = theme;
     setCookie("theme", theme, 10);
     console.log("Switched theme to: " + theme);
-}
+},
 
-function get() {
+get: function () {
     var theme = getCookie("theme");
     if (theme !== "") {
         switchTheme(theme);
