@@ -18,6 +18,9 @@ Note that the displayed date is in the format `dd-mm-yyyy`
 ### Breaking changes
 - Now the functions stay under a JS object i.e. `window.switchTheme`
 
+### New features
+- Quick debugging
+
 [v1.0.0]: https://github.com/PuneetGopinath/switch-theme-js/releases/tag/v1.0.0
 
 ## Older changelogs
