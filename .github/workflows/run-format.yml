@@ -23,6 +23,8 @@ jobs:
         run: npm run format
       - name: Check code style
         run: npm run format:check
+      - name: Minify JS using UglifyJS
+        run: npm run minify
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v7
         with:
