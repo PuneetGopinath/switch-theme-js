@@ -10,6 +10,9 @@
 # node_modules folder
 node_modules
 
+# jslint
+jslint.mjs
+
 ## Backup files
 *.bak
 *.tmp

@@ -14,12 +14,13 @@
         document.cookie = name + "=" + value + ";" + expires + ";path=/";
     };
 
-    var getCookie = function (name) {
-        var name = name + "=";
+    var getCookie = function (cname) {
+        var name = cname + "=";
         var decodedCookie = decodeURIComponent(document.cookie);
         var ca = decodedCookie.split(";");
-        for (var i = 0; i < ca.length; i++) {
-            var c = ca[i];
+        var i, c;
+        for (i = 0; i < ca.length; i++) {
+            c = ca[i];
             while (c.charAt(0) == " ") {
                 c = c.substring(1);
             }
@@ -31,18 +32,17 @@
     };
 
     return {
-        switch: function (theme) {
-            document.documentElement.dataset.theme = theme;
-            setCookie("theme", theme, 10);
-            console.log("Switched theme to: " + theme);
-        },
-
         get: function () {
             var theme = getCookie("theme");
             if (theme !== "") {
                 switchTheme.switch(theme);
             }
             return theme;
+        },
+        switch: function (theme) {
+            document.documentElement.dataset.theme = theme;
+            setCookie("theme", theme, 10);
+            console.log("Switched theme to: " + theme);
         },
     };
 });
