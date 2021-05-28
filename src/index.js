@@ -7,14 +7,14 @@
     "use strict";
     root[ns] = factory(ns, root);
 })(window, "switchTheme", function () {
-    function setCookie(name, value, exdays) {
+    var setCookie = function (name, value, exdays) {
         var d = new Date();
         d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
         var expires = "expires=" + d.toUTCString();
         document.cookie = name + "=" + value + ";" + expires + ";path=/";
     }
 
-    function getCookie(name) {
+    var getCookie = function (name) {
         var name = name + "=";
         var decodedCookie = decodeURIComponent(document.cookie);
         var ca = decodedCookie.split(";");
@@ -29,6 +29,7 @@
         }
         return "";
     }
+
     return {
         switch: function (theme) {
             document.documentElement.dataset.theme = theme;
@@ -39,7 +40,7 @@
         get: function () {
             var theme = getCookie("theme");
             if (theme !== "") {
-                switchTheme(theme);
+                switchTheme.switch(theme);
             }
             return theme;
         },
