@@ -12,6 +12,7 @@
 
 ## Features
 - Themes switch without page reload
+- Quick debugging
 - Many more features coming
 
 ## Live demo

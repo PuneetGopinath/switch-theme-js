@@ -13,7 +13,12 @@
         var expires = "expires=" + d.toUTCString();
         document.cookie = name + "=" + value + ";" + expires + ";path=/";
     };
-
+    var checkEmpty = function (variable) {
+        if (variable) {
+            return false;
+        }
+        return true;
+    };
     var getCookie = function (cname) {
         var name = cname + "=";
         var decodedCookie = decodeURIComponent(document.cookie);
@@ -32,17 +37,20 @@
     };
 
     return {
+        version: "v1.0.0-alpha1",
         get: function () {
             var theme = getCookie("theme");
-            if (theme !== "") {
+            if (!checkEmpty(theme)) {
                 switchTheme.switch(theme);
+            } else {
+                console.log("Theme not set or empty, can't get theme name");
             }
             return theme;
         },
         switch: function (theme) {
             document.documentElement.dataset.theme = theme;
             setCookie("theme", theme, 10);
-            console.log("Switched theme to: " + theme);
+            checkEmpty(theme) ? console.log("Theme not set or empty, can't switch theme") : console.log("Switched to: " + theme + " theme");
         },
     };
 });
