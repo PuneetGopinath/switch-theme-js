@@ -16,13 +16,15 @@
   "license": "LGPL-2.1-only",
   "scripts": {
     "format:check": "prettier --check .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "minify": "uglifyjs --compress --output src/index.min.js -- src/index.js"
   },
   "bugs": {
     "url": "https://github.com/PuneetGopinath/switch-theme-js/issues"
   },
   "homepage": "https://github.com/PuneetGopinath/switch-theme-js#readme",
   "devDependencies": {
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.0",
+    "uglify-js": "^3.13.7"
   }
 }
