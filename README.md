@@ -1,6 +1,8 @@
 # Switch Theme JS
 > Easily switch themes in your website
 
+<img src="gif/Switch-Theme.gif" alt="gif" width="400" height="200" />
+
 [![GitHub stars](https://img.shields.io/github/stars/PuneetGopinath/switch-theme-js)](https://github.com/PuneetGopinath/switch-theme-js/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/PuneetGopinath/switch-theme-js)](https://github.com/PuneetGopinath/switch-theme-js/network)
 [![GitHub issues](https://img.shields.io/github/issues/PuneetGopinath/switch-theme-js)](https://github.com/PuneetGopinath/switch-theme-js/issues)
