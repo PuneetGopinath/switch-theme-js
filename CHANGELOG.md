@@ -1,30 +1,24 @@
-# Changelog v0
+# Changelog v1
 
-The Changelog of the major version 0 of Switch Theme JS.
+The Changelog of the major version 1 of Switch Theme JS.
 
 Note that the displayed date is in the format `dd-mm-yyyy`
 
 [Older changelogs](#older-changelogs)
 
-## [v0.1.4]
+## [v1.0.0]
 > **Released:** `TBA`
 
-[v0.1.4]: https://github.com/PuneetGopinath/switch-theme-js/releases/tag/v0.1.4
+### Initial release!!
 
-## [v0.1.1]
-> **Released:** `27-05-2021`
+### Changes
+- Rename `src/switch.js` to `src/index.js`
+- Add `docs` folder
 
-### Bug fixes
-- Fix package name, as a package with that name already exists.
+### Breaking changes
+- Now the functions stay under a JS object i.e. `window.switchTheme`
 
-[v0.1.1]: https://github.com/PuneetGopinath/switch-theme-js/releases/tag/v0.1.1
-
-## [v0.1.0]
-> **Released:** `27-05-2021`
-
-### Initial development release!!
-
-[v0.1.0]: https://github.com/PuneetGopinath/switch-theme-js/releases/tag/v0.1.0
+[v1.0.0]: https://github.com/PuneetGopinath/switch-theme-js/releases/tag/v1.0.0
 
 ## Older changelogs
 - No older changelogs

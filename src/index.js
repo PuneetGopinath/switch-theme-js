@@ -1,21 +1,12 @@
 /**
- * Switch Theme JS v0.1.1
+ * Switch Theme JS v1.0.0-alpha1
  * Copyright (c) 2021 The Baal Krshna Team
  */
 
-function switchTheme(theme) {
-    document.documentElement.dataset.theme = theme;
-    setCookie("theme", theme, 10);
-    console.log("Switched theme to: " + theme);
-}
-
-function getTheme() {
-    var theme = getCookie("theme");
-    if (theme !== "") {
-        switchTheme(theme);
-    }
-    return theme;
-}
+(function (root, ns, factory) {
+    "use strict";
+    root[ns] = factory(ns, root);
+}(window, "switchTheme", function () {
 
 function setCookie(name, value, exdays) {
     var d = new Date();
@@ -39,3 +30,19 @@ function getCookie(name) {
     }
     return "";
 }
+return {
+function switch(theme) {
+    document.documentElement.dataset.theme = theme;
+    setCookie("theme", theme, 10);
+    console.log("Switched theme to: " + theme);
+}
+
+function get() {
+    var theme = getCookie("theme");
+    if (theme !== "") {
+        switchTheme(theme);
+    }
+    return theme;
+}
+}
+}));

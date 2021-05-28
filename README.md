@@ -1,4 +1,4 @@
-# switch-theme-js
+# Switch Theme JS
 > Easily switch themes in your website
 
 [![GitHub stars](https://img.shields.io/github/stars/PuneetGopinath/switch-theme-js)](https://github.com/PuneetGopinath/switch-theme-js/stargazers)
@@ -17,9 +17,6 @@ See [live demo](https://puneetgopinath.github.io/switch-theme-js/)
 
 Click on "Dark theme" refresh the page, you see the page is default now set to dark theme.
 
-## Contributing
-You can find the contributing guidelines [here](https://github.com/PuneetGopinath/switch-theme-js/blob/main/.github/CONTRIBUTING.md)
-
 ## FAQs
 These are the frequently asked questions:
 
@@ -31,13 +28,13 @@ You need to know CSS for that.
 
 1. Think of a cool theme name
 2. To select the theme in CSS, use `[data-theme="themeName"]` where `themeName` is your theme name
-3. To add a button for user to switch the theme, use the html `a` tag e.g. `<a href="javascript:switchTheme('dark', 'white');">Dark theme</a>`
-4. Add `onload="getTheme();"` to your `body` tag
-5. Add `<script async defer src="https://cdn.jsdelivr.net/gh/PuneetGopinath/switch-theme-js@main/src/switch.js"></script>` in the head tag.
-6. That's all, test it out in your website, or submit a bug report for us to Analyse it.
+3. To add a button for user to switch the theme (use the html `a` tag e.g. `<a href="javascript:switchTheme.switch('dark');">Dark theme</a>`)
+4. Add `onload="switchTheme.get();"` to your `body` tag
+5. Add `<script async defer src="https://cdn.jsdelivr.net/gh/PuneetGopinath/switch-theme-js@v1-dev/src/switch.js"></script>` in the head tag.
+6. That's all, test it out in your website, or submit a bug report for us to Analyse the bug.
 
-### 3. Example html file
-The [index.html](https://github.com/PuneetGopinath/switch-theme-js/blob/gh-pages/index.html) file shows an example.
+## Contributing
+You can find the contributing guidelines [here](https://github.com/PuneetGopinath/switch-theme-js/blob/main/.github/CONTRIBUTING.md)
 
 ## Supporters
 👏 A big thank you goes to all the supporters of this project!

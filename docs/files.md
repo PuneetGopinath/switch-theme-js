@@ -2,7 +2,7 @@
 
 To understand what files required for using Switch Theme read this guide.
 
-## 1. src/switch.js
+## 1. src/index.js
 The main file.
 
 ---------------------------------------------------------------------
