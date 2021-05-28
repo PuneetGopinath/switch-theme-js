@@ -14,5 +14,6 @@
             }
         }
     ],
-    "printWidth": 400
+    "printWidth": 400,
+    "endOfLine": "lf"
 }
