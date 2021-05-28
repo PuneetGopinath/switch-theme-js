@@ -38,6 +38,9 @@ You need to know CSS for that.
 ## Contributing
 You can find the contributing guidelines [here](https://github.com/PuneetGopinath/switch-theme-js/blob/main/.github/CONTRIBUTING.md)
 
+## Changelog
+See [CHANGELOG.md](https://github.com/PuneetGopinath/switch-theme-js/blob/main/CHANGELOG.md)
+
 ## Supporters
 👏 A big thank you goes to all the supporters of this project!
 
