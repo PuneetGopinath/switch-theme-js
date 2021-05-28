@@ -20,10 +20,11 @@
         return true;
     };
     var getCookie = function (cname) {
-        var name = cname + "=";
+        const name = cname + "=";
         var decodedCookie = decodeURIComponent(document.cookie);
         var ca = decodedCookie.split(";");
-        var i, c;
+        var i;
+        var c;
         for (i = 0; i < ca.length; i++) {
             c = ca[i];
             while (c.charAt(0) == " ") {

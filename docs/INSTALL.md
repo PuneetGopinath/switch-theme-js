@@ -1,6 +1,4 @@
-<link rel="stylesheet" href="https://puneetgopinath.github.io/css/main.css" />
-
-# How-to install Switch Theme JS
+# How-to install BK Switch Theme JS
 
 ## Table of Contents
 

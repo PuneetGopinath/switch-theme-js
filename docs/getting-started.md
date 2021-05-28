@@ -1,4 +1,4 @@
-<h2 align="center">Switch Theme JS Docs - Getting Started</h2>
+<h2 align="center">BK Switch Theme JS Docs - Getting Started</h2>
 
 Get started with Switch Theme JS, the library for quickly manging themes in CSS using JS.
 

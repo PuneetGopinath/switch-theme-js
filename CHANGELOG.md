@@ -1,6 +1,6 @@
 # Changelog v1
 
-The Changelog of the major version 1 of Switch Theme JS.
+The Changelog of the major version 1 of BK Switch Theme JS.
 
 Note that the displayed date is in the format `dd-mm-yyyy`
 
@@ -12,11 +12,12 @@ Note that the displayed date is in the format `dd-mm-yyyy`
 ### Initial release!!
 
 ### Changes
-- Rename `src/switch.js` to `src/index.js`
-- Add `docs` folder
+- Renamed `src/switch.js` to `src/index.js`
+- Added `docs` folder
+- Added `themes` folder
 
 ### Breaking changes
-- Now the functions stay under a JS object i.e. `window.switchTheme`
+- Now the functions are under a JS object i.e. `window.switchTheme`
 
 ### New features
 - Quick debugging

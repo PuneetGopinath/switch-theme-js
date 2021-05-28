@@ -1,0 +1,10 @@
+/*!
+ * Themes for BK Switch Theme JS
+ * Licensed under Lesser General Public License v2.1
+ * Copyright (c) 2021 The Baal Krshna Team
+ */
+
+[data-theme="light"] {
+  color: #000;
+  background-color: #fff;
+}

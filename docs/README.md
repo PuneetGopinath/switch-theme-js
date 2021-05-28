@@ -1,4 +1,4 @@
-<h2 align="center"Switch Theme JS Docs - Home</h2>
+<h2 align="center"BK Switch Theme JS Docs - Home</h2>
 
 Welcome to the documentation for Switch Theme JS.
 

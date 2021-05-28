@@ -1,4 +1,4 @@
-<h2 align="center">Switch Theme JS Docs - Functions</h2>
+<h2 align="center">BK Switch Theme JS Docs - Functions</h2>
 
 # Functions
 

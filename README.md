@@ -1,4 +1,4 @@
-# Switch Theme JS
+# BK Switch Theme JS
 > Easily switch themes in your website
 
 <img src="gif/Switch-Theme.gif" alt="gif" width="400" height="200" />
@@ -13,7 +13,8 @@
 ## Features
 - Themes switch without page reload
 - Quick debugging
-- Many more features coming
+- A lot of themes
+- And many more features coming
 
 ## Live demo
 See [live demo](https://puneetgopinath.github.io/switch-theme-js/)
