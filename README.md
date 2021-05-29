@@ -13,7 +13,8 @@
 ## Features
 - Themes switch without page reload
 - Quick debugging
-- Add your own themes and some themes given in [`themes`](https://github.com/PuneetGopinath/switch-theme-js/tree/v1-dev/themes) folder
+- Add your own themes and some themes ready-made in [`themes`](https://github.com/PuneetGopinath/switch-theme-js/tree/v1-dev/themes) folder
+- Minified version of `index.js` automatically available in `index.min.js`
 - And many more features coming
 
 ## v0

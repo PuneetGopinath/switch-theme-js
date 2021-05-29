@@ -18,12 +18,11 @@ Note that the displayed date is in the format `dd-mm-yyyy`
 - Now the functions are under a JS object i.e. `window.switchTheme`
 
 ### New features
-- Quick debugging
+- Easy debugging
 - Minified version of `index.js` automatically available in `index.min.js`, minified using `UglifyJS`
 
 ### Docs
 - Added `themes` folder
-- Added `docs` folder
 
 [v1.0.0]: https://github.com/PuneetGopinath/switch-theme-js/releases/tag/v1.0.0
 
