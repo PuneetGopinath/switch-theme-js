@@ -1,6 +1,6 @@
 /**
  * Switch Theme JS v1.0.0-alpha1
- * Copyright (c) 2021 The Baal Krshna Team
+ * Copyright (c) 2021 The Baal Krshna Team and Contributors
  */
 
 (function (root, ns, factory) {

@@ -3,5 +3,36 @@
 /*!
  * Themes for BK Switch Theme JS
  * Licensed under Lesser General Public License v2.1
- * Copyright (c) 2021 The Baal Krshna Team
+ * Copyright (c) 2021 The Baal Krshna Team and Contributors
  */
+
+/* Container */
+.container {
+  max-width: 1012px;
+
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Text aligning */
+.right {
+  text-align: right;
+}
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.wide {
+  letter-spacing: 4px;
+}
+.underline {
+  text-decoration: underline;
+}
+.strikethrough {
+  text-decoration: line-through;
+}
