@@ -21,6 +21,9 @@
 If you are looking for help with v0, you should head to the [`main` branch](https://github.com/PuneetGopinath/switch-theme-js/tree/main).
 This branch is developing code for v1 release.
 
+## Docs
+See [`docs` folder](https://github.com/PuneetGopinath/switch-theme-js/tree/main/docs).
+
 ## Live demo
 See [live demo](https://puneetgopinath.github.io/switch-theme-js/)
 
