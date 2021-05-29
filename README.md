@@ -13,7 +13,7 @@
 ## Features
 - Themes switch without page reload
 - Quick debugging
-- Add your know themes and some themes given in [`themes`](https://github.com/PuneetGopinath/switch-theme-js/tree/v1-dev/themes) folder
+- Add your own themes and some themes given in [`themes`](https://github.com/PuneetGopinath/switch-theme-js/tree/v1-dev/themes) folder
 - And many more features coming
 
 ## v0
