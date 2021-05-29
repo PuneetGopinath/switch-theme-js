@@ -19,12 +19,12 @@ jobs:
           node-version: "12.x"
       - name: Install dependencies
         run: npm install
-      - name: Run ESLint
-        run: npm run lint
       - name: Run format
         run: npm run format
       - name: Check code style
         run: npm run format:check
+      - name: Run ESLint
+        run: npm run lint
       - name: Minify JS using UglifyJS
         run: npm run minify
       - name: Commit and push changes
