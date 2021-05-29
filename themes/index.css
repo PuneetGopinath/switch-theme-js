@@ -8,31 +8,31 @@
 
 /* Container */
 .container {
-  max-width: 1012px;
+    max-width: 1012px;
 
-  margin-top: 32px;
-  margin-bottom: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 
-  margin-right: auto;
-  margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Text aligning */
 .right {
-  text-align: right;
+    text-align: right;
 }
 .left {
-  text-align: left;
+    text-align: left;
 }
 .center {
-  text-align: center;
+    text-align: center;
 }
 .wide {
-  letter-spacing: 4px;
+    letter-spacing: 4px;
 }
 .underline {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 .strikethrough {
-  text-decoration: line-through;
+    text-decoration: line-through;
 }
