@@ -16,6 +16,10 @@
 - A lot of themes
 - And many more features coming
 
+## v0
+If you are looking for help with v0, you should head to the [`main` branch](https://github.com/PuneetGopinath/switch-theme-js/tree/main).
+This branch is developing code for v1 release.
+
 ## Live demo
 See [live demo](https://puneetgopinath.github.io/switch-theme-js/)
 
