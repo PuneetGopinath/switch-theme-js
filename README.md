@@ -14,6 +14,9 @@
 - Themes switch without page reload
 - Many more features coming
 
+## Docs
+See [`docs` folder](https://github.com/PuneetGopinath/switch-theme-js/tree/main/docs).
+
 ## Live demo
 See [live demo](https://puneetgopinath.github.io/switch-theme-js/)
 

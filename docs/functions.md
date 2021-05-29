@@ -1,0 +1,22 @@
+<h2 align="center">BK Switch Theme JS Docs - Functions</h2>
+
+# Functions
+
+## 1. switchTheme
+Switches the theme and adds the theme name to the class list of body tag. It also logs that we switched the theme, i.e. `console.log("Switched theme to: " + theme);`
+
+### Args
+1. theme - The theme name
+2. ...rmThemes - Themes to remove
+
+### Return value
+Returns null
+
+## 2. getTheme
+Gets the theme name from the cookie stored, and if the theme name is not empty, it switches the theme. Just call this function on body load, so that if cookie is set it switches the theme.
+
+### Args
+No args
+
+### Return value
+Returns string
