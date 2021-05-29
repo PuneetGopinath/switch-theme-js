@@ -1,4 +1,4 @@
-# How-to install BK Switch Theme JS
+<h2 align="center">BK Switch Theme JS Docs - Installation</h2>
 
 ## Table of Contents
 
@@ -23,7 +23,7 @@ Installing from composer:
 
 ```
 "dependencies": {
-    "@bkbaalkrshna/switch-theme": "^0.1.0"
+    "@bkbaalkrshna/switch-theme": "^0.1.3"
 }
 ```
 
