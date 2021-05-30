@@ -9,6 +9,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/PuneetGopinath/switch-theme-js)
 ![Lines of code](https://img.shields.io/tokei/lines/github/PuneetGopinath/switch-theme-js?label=total%20lines%20of%20code)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/PuneetGopinath/switch-theme-js/blob/main/.github/CODE_OF_CONDUCT.md)
+[![Join the chat at https://gitter.im/BaalKrshna/switch-theme](https://badges.gitter.im/BaalKrshna/switch-theme.svg)](https://gitter.im/BaalKrshna/switch-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Features
 - Themes switch without page reload
