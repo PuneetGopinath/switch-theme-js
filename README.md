@@ -11,6 +11,7 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/PuneetGopinath/switch-theme-js/blob/main/.github/CODE_OF_CONDUCT.md)
 [![Join the chat at https://gitter.im/BaalKrshna/switch-theme](https://badges.gitter.im/BaalKrshna/switch-theme.svg)](https://gitter.im/BaalKrshna/switch-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Discord Chat](https://img.shields.io/discord/836854115526770708?color=7289da&label=discord)](https://discord.gg/EQas36CjmN)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPuneetGopinath%2Fswitch-theme-js.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FPuneetGopinath%2Fswitch-theme-js?ref=badge_shield)
 
 ## Features
 - Themes switch without page reload
@@ -61,7 +62,6 @@ You prove that the switch-theme-js Action has some value for you!
 
 ### Stargazers
 [![Stargazers for @PuneetGopinath/switch-theme-js](https://reporoster.com/stars/PuneetGopinath/switch-theme-js)](https://github.com/PuneetGopinath/switch-theme-js/stargazers)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPuneetGopinath%2Fswitch-theme-js.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FPuneetGopinath%2Fswitch-theme-js?ref=badge_shield)
 
 ### Contributors
 Thanks to all contributors again!
