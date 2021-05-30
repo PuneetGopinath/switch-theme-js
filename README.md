@@ -61,8 +61,13 @@ You prove that the switch-theme-js Action has some value for you!
 
 ### Stargazers
 [![Stargazers for @PuneetGopinath/switch-theme-js](https://reporoster.com/stars/PuneetGopinath/switch-theme-js)](https://github.com/PuneetGopinath/switch-theme-js/stargazers)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPuneetGopinath%2Fswitch-theme-js.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FPuneetGopinath%2Fswitch-theme-js?ref=badge_shield)
 
 ### Contributors
 Thanks to all contributors again!
 
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=PuneetGopinath/switch-theme-js)](https://github.com/PuneetGopinath/switch-theme-js/contributors)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPuneetGopinath%2Fswitch-theme-js.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FPuneetGopinath%2Fswitch-theme-js?ref=badge_large)
