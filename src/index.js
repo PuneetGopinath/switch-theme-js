@@ -1,7 +1,7 @@
 /**
  * Switch Theme JS v1.0.0-alpha1
  * Copyright (c) 2021 The Baal Krshna Team and Contributors
- * Licensed under Lesser General Public License v2.1 (LGPl-2.1 - https://opensource.org/licenses/lgpl-2.1.php)
+ * @license Lesser General Public License v2.1 (LGPl-2.1 - https://opensource.org/licenses/lgpl-2.1.php)
  */
 
 (function (root, ns, factory) {
