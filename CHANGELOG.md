@@ -15,7 +15,7 @@ Note that the displayed date is in the format `dd-mm-yyyy`
 - Renamed `src/switch.js` to `src/index.js`
 
 ### Breaking changes
-- Now the functions are under a JS object i.e. `window.switchTheme`
+- Now the functions are under a JS object i.e. `window.SwitchThemeJS`
 
 ### New features
 - Easy debugging

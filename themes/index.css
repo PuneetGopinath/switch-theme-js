@@ -9,10 +9,8 @@
 /* Container */
 .container {
     max-width: 1012px;
-
     margin-top: 32px;
     margin-bottom: 32px;
-
     margin-right: auto;
     margin-left: auto;
 }

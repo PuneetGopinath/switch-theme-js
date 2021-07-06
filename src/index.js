@@ -7,7 +7,7 @@
 (function (root, ns, factory) {
     "use strict";
     root[ns] = factory(ns, root);
-})(window, "switchTheme", function () {
+})(window, "SwitchThemeJS", function () {
     var setCookie = function (name, value, exdays) {
         var d = new Date();
         d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
@@ -45,14 +45,14 @@
             if (!checkEmpty(theme)) {
                 this.switch(theme);
             } else {
-                console.log("Theme not set or empty, can't get theme name");
+                console.error("Theme not set or empty, can't get theme name");
             }
             return theme;
         },
         switch: function (theme) {
             document.documentElement.dataset.theme = theme;
             setCookie("theme", theme, 10);
-            checkEmpty(theme) ? console.log("Theme not set or empty, can't switch theme") : console.log("Switched to: " + theme + " theme");
+            checkEmpty(theme) ? console.error("Theme not set or empty, can't switch theme") : console.log("Switched to: " + theme + " theme");
         },
     };
 });
