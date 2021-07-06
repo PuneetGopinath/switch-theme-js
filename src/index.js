@@ -43,7 +43,7 @@
         get: function () {
             var theme = getCookie("theme");
             if (!checkEmpty(theme)) {
-                switchTheme.switch(theme);
+                this.switch(theme);
             } else {
                 console.log("Theme not set or empty, can't get theme name");
             }

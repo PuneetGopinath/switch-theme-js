@@ -16,6 +16,9 @@
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "double"],
     "semi": ["error", "always"],
-    "no-undef": ["warn"]
+    "no-undef": ["warn"],
+    "no-invalid-this": ["warn"],
+    "camelcase": ["error"],
+    "eol-last": ["warn",  "always"]
   }
 }
