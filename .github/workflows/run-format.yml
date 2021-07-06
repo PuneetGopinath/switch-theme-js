@@ -23,15 +23,19 @@ jobs:
         run: npm run format
       - name: Check code style
         run: npm run format:check
-      - name: Run ESLint
-        run: npm run lint
-      - name: Minify JS using UglifyJS
-        run: npm run minify
-      - name: Allow large git uploads
-        run: git config http.postBuffer 524288000
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v7
         with:
           author_name: github-actions[bot]
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
-          message: "chore: build & format code"
+          message: "chore: format code"
+      - name: Run ESLint
+        run: npm run lint
+      - name: Minify JS using UglifyJS
+        run: npm run minify
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: github-actions[bot]
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: "chore: build"
