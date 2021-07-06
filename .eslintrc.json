@@ -19,6 +19,6 @@
     "no-undef": ["warn"],
     "no-invalid-this": ["warn"],
     "camelcase": ["error"],
-    "eol-last": ["warn",  "always"]
+    "eol-last": ["warn", "always"]
   }
 }
