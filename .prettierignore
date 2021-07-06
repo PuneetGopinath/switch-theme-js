@@ -1,3 +1,4 @@
 *.md
 package-lock.json
 **/*.yml
+src/*.min.js
