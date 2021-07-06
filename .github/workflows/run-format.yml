@@ -23,19 +23,23 @@ jobs:
         run: npm run format
       - name: Check code style
         run: npm run format:check
-      - name: Commit and push changes
-        uses: EndBug/add-and-commit@v7
-        with:
-          author_name: github-actions[bot]
-          author_email: 41898282+github-actions[bot]@users.noreply.github.com
-          message: "chore: format code"
+      - name: Commit code format changes
+        run: |
+          if [[ "$(git status --porcelain)" != "" ]]; then
+            git config user.name github-actions[bot]
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git add --all
+            git commit -m "chore: format code"
+          fi
       - name: Run ESLint
         run: npm run lint
       - name: Minify JS using UglifyJS
         run: npm run minify
       - name: Commit and push changes
-        uses: EndBug/add-and-commit@v7
-        with:
-          author_name: github-actions[bot]
-          author_email: 41898282+github-actions[bot]@users.noreply.github.com
-          message: "chore: build"
+        run: |
+          if [[ "$(git status --porcelain)" != "" ]]; then
+            git config user.name github-actions[bot]
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git add --all
+            git commit -m "chore: build"
+          fi
